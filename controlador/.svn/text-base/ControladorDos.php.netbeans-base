@@ -1,0 +1,37 @@
+<?php
+
+$app = $this;
+$app->cargarRequest();
+
+if ($app->cargarVista("dos") === false) {
+    $app->error("No se encontro la vista. dos.");
+}
+$vista = new VistaDos();
+//if ($app->cargarModelo("index") === false) {
+ //   $app->error("No se encontro el modelo. index.");/
+//}
+//$modelo = new ModeloIndex();
+//$modelo->conectar("ifxibgdir");
+
+$variable=$_REQUEST["variable"];
+$vista->asignarVariable("variable", $variable);
+/*
+
+$modelo->getEstado();
+while ($registro = $modelo->getRegistro()) {
+    $estado = trim($registro["rutina"]);
+}
+if ($estado == 1) {//activo
+    $vista->asignarVariable("head", "Boletin Activo");
+    $vista->asignarVariable("estado", true);
+} else {//inactivo
+    $vista->asignarVariable("head", "Boletin Inactivo");
+    $vista->asignarVariable("estado", false);
+}
+
+*/
+$vista->asignarVariable("titulo", "Boletin Management");
+$vista->cargarTemplate("header");
+$vista->dibujar();
+$vista->cargarTemplate("footer");
+?>

@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+a  {
+    text-decoration:	none;
+}
+
+a:visited  {
+    text-decoration:	none;
+}
+
+a:active  {
+    text-decoration:	none;
+}
+
+
+body  {
+    color:	#000;
+    font-family:	Arial;
+    font-size:	10pt;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1  {
+    color:	#ffffff;
+    font-size:	12pt;
+    /*text-align:	center;*/
+}
+
+.borde {
+    border-style:	solid;
+    border-width:	1px;
+    border-color:	#000;
+}
+
+.redondeado {
+    border-radius: 5px;
+}
+
+.footer {
+    background-color:#acdd4a;
+    color: #fff;
+    text-align:	center;
+    padding:5px;
+}
+
+.p{
+
+    color: #ffffff;
+
+}
+
+.gradiente{
+
+    background: #2C3E50;
+    background: -moz-linear-gradient(left, #020031 0%, #6d3353 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#020031), color-stop(100%,#6d3353));
+    background: -webkit-linear-gradient(left,  #020031 0%,#6d3353 100%);
+    background: -o-linear-gradient(left,  #020031 0%,#6d3353 100%);
+    background: -ms-linear-gradient(left,  #020031 0%,#6d3353 100%);
+    background: linear-gradient(to right,  #020031 0%,#6d3353 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+
+}
+
+.masterBack{
+
+    background: #2C3E50;
+    background: -moz-linear-gradient(left, #020031 0%, #6d3353 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#020031), color-stop(100%,#6d3353));
+    background: -webkit-linear-gradient(left,  #020031 0%,#6d3353 100%);
+    background: -o-linear-gradient(left,  #020031 0%,#6d3353 100%);
+    background: -ms-linear-gradient(left,  #020031 0%,#6d3353 100%);
+    background: linear-gradient(to right,  #020031 0%,#6d3353 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+
+}
+ .h5{
+                font-size: 16px;
+                color: whitesmoke;
+                float: left;
+            }
+            .h4{
+                font-size: 18px;
+                color: whitesmoke;
+            }.celdaAz{
+    background-color: #2F127D; 
+    color:#f3f3f3;
+    padding: 2px;
+    text-align: center;
+}
+.celdaBo{
+    background-color: #E2E8FD;
+    padding: 2px;
+    text-align: center;
+}
+.vacio{
+    background-color: #E2E8FD;
+    padding: 2px;    
+}
+.b{
+    font-weight: bold;    
+}

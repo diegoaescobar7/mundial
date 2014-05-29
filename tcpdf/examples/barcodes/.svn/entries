@@ -1,0 +1,154 @@
+10
+
+dir
+0
+https://projectv4.googlecode.com/svn/trunk/v4/mauro/tcpdf/examples/barcodes
+https://projectv4.googlecode.com/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+457dc370-0c73-4b8d-bf3f-3a3df260beb6
+
+example_1d_html.php
+file
+
+
+
+add
+
+example_1d_png.php
+file
+
+
+
+add
+
+example_1d_svg.php
+file
+
+
+
+add
+
+example_1d_svgi.php
+file
+
+
+
+add
+
+example_2d_datamatrix_html.php
+file
+
+
+
+add
+
+example_2d_datamatrix_png.php
+file
+
+
+
+add
+
+example_2d_datamatrix_svg.php
+file
+
+
+
+add
+
+example_2d_datamatrix_svgi.php
+file
+
+
+
+add
+
+example_2d_pdf417_html.php
+file
+
+
+
+add
+
+example_2d_pdf417_png.php
+file
+
+
+
+add
+
+example_2d_pdf417_svg.php
+file
+
+
+
+add
+
+example_2d_pdf417_svgi.php
+file
+
+
+
+add
+
+example_2d_qrcode_html.php
+file
+
+
+
+add
+
+example_2d_qrcode_png.php
+file
+
+
+
+add
+
+example_2d_qrcode_svg.php
+file
+
+
+
+add
+
+example_2d_qrcode_svgi.php
+file
+
+
+
+add
+
+tcpdf_barcodes_1d_include.php
+file
+
+
+
+add
+
+tcpdf_barcodes_2d_include.php
+file
+
+
+
+add
+

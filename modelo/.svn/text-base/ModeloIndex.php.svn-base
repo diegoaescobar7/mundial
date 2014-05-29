@@ -1,0 +1,24 @@
+<?php
+
+class ModeloIndex extends ModeloBase {
+
+    function getEstado($estado, $nombre, $cedula) {
+        if($nombre==null && $cedula==null){
+          $sql = "select * from empleado, seccion where empleado.cod_seccion=seccion.cod_empleado and empleado.activo=$estado";
+        $this->consultar($sql);
+        }
+        elseif ($nombre!==null && $cedula==null){
+          $sql = "select * from empleado, seccion where empleado.cod_seccion=seccion.cod_empleado and empleado.activo=$estado and empleado.nombres like '$nombre%'";
+        $this->consultar($sql);
+        }
+        else{
+        $sql = "select * from empleado, seccion where empleado.cod_seccion=seccion.cod_empleado and empleado.activo=$estado and empleado.cedula like '$cedula%'";
+        $this->consultar($sql);
+        }
+    }
+
+
+
+}
+
+?>
